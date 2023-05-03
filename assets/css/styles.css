@@ -1,0 +1,40 @@
+.sky{
+    width: 100%;
+    height: 300px;
+    background-color: skyblue;
+    background-image: url('../img/sky.gif');
+}
+.grass{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/grass.gif');
+    display: flex;
+    flex-direction: row;
+}
+.perro {
+    animation: correr 8s ease-in-out infinite;
+}
+
+
+@keyframes correr {
+    0% {
+        margin: 0%;
+    }
+
+    25% {
+        margin-left: 20%;
+    }
+
+    50% {
+        margin-left: 35%;
+    }
+
+    75% {
+        margin-left: 70%;
+    }
+
+    100% {
+        margin-left: 90%;
+    }
+}
+
